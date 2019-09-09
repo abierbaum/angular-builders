@@ -80,7 +80,12 @@
             "karmaConfig": "projects/my-first-app/karma.conf.js",
             "assets": [
               "projects/my-first-app/src/favicon.ico",
-              "projects/my-first-app/src/assets"
+              "projects/my-first-app/src/assets",
+              {
+                "glob": "**/*.png",
+                "input": "projects/my-firt-app/src/assets",
+                "output": "./assets/"
+              }
             ],
             "styles": [
               "projects/my-first-app/src/styles.css"
